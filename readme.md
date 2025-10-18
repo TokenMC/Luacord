@@ -5,11 +5,11 @@
 * If you have any questions, i will make a discord server soon and you can ask me there!
 
 
-Features:-
-Experimental Async
-Pure Lua
-New Features Coming Soon
-Plugins and Cogs Support
+### Features:-
+* Experimental Async
+* Pure Lua
+* New Features Coming Soon
+* Plugins and Cogs Support
 
 
 
