@@ -6,6 +6,8 @@
 
 ---
 
+# Project is Dead! New Project Based On Luavit (fork of discordia) coming soon!
+
 ## Description
 
 **Luacord** is an experimental Discord API wrapper written entirely in Lua.  
