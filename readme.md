@@ -28,11 +28,12 @@ It provides a lightweight and flexible interface to create Discord bots using pu
 
 ## Features
 
-- Fully written in Lua (no external dependencies)  
+- Fully written in Lua
 - Simple interface for beginners  
 - Supports asynchronous operations for high-performance bots  
 - Modular cog system for scalable bot commands  
-- Lightweight and efficient  
+- Lightweight and efficient
+- Actively Developed
 
 ---
 
@@ -41,5 +42,5 @@ It provides a lightweight and flexible interface to create Discord bots using pu
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/luacord.git
+git clone https://github.com/Tokenmc/luacord.git
 cd luacord
