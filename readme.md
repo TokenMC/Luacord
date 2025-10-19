@@ -2,20 +2,7 @@
 
 [![Lua](https://img.shields.io/badge/Lua-Blue?logo=lua&logoColor=white)](https://www.lua.org/)  
 [![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white)](https://discord.com/)  
-[![License](https://img.shields.io/badge/License-Unlicense-green)](LICENSE)
-
----
-
-## Table of Contents
-
-- [Description](#description)  
-- [Features](#features)  
-- [Installation](#installation)  
-- [Simple Bot Example](#simple-bot-example)  
-- [Advanced Bot Example (Async + Cogs)](#advanced-bot-example-async--cogs)  
-- [Cog Example](#cog-example)  
-- [How to Run](#how-to-run)  
-- [License](#license)  
+[![License](https://img.shields.io/badge/License-Unlicense-green)](LICENSCE)
 
 ---
 
@@ -53,8 +40,8 @@ cd luacord
 
 ---
 
-``` ## Simple Bot Example
-
+## Simple Bot Example
+```
 local luacord = require("luacord")
 
 local bot = luacord.Client:new("YOUR_BOT_TOKEN")
@@ -74,3 +61,13 @@ end)
 -- Run the bot
 bot:run()
 ```
+
+---
+
+```
+### For More Information about docs, ask me on discord
+```
+
+# Not Affilated With Discord Or Any Projects!
+
+### Created By ItzNuclear
