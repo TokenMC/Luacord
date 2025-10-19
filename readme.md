@@ -44,3 +44,33 @@ It allows you to build Discord bots quickly and efficiently with **no external d
 ```bash
 git clone https://github.com/Tokenmc/luacord.git
 cd luacord
+
+2. Install Lua if not already installed: https://www.lua.org/download.html
+
+
+3. (Optional) Install dependencies if required for advanced features.
+```
+
+---
+
+``` ## Simple Bot Example
+
+local luacord = require("luacord")
+
+local bot = luacord.Client:new("YOUR_BOT_TOKEN")
+
+-- Triggered when the bot is ready
+bot:on("ready", function()
+    print("Logged in as " .. bot.user.username)
+end)
+
+-- Respond to messages
+bot:on("messageCreate", function(message)
+    if message.content == "!ping" then
+        message.channel:send("Pong!")
+    end
+end)
+
+-- Run the bot
+bot:run()
+```
